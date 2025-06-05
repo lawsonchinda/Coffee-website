@@ -4,7 +4,7 @@ const menuCloseButton = document.querySelector("#menu-close-button");
 
 menuOpenButton.addEventListener("click", () =>{
     // toggle mobile visibility
-    document.body.classList.toggle("show-mobile-menu")
+    document.body.classList.toggle("show-mobile-menuu")
 })
 
 menuCloseButton.addEventListener("click", () => menuOpenButton.click());
